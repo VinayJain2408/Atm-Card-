@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #wrapper{
+    height: 100vh;
+} */
+.page{
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgb(73,73,226),rgb(210,210,200));
+}
+.box1{
+    width: 310px;
+    height: 200px;
+    background:linear-gradient(rgb(197, 9, 9),rgb(17, 16, 16));
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    border-radius: 10px;
+}
+.box1 .contant{
+    display: flex;
+}
+.box1 .contant p:first-of-type{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box1 .contant p:last-of-type{
+    border: 1px solid #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.box1 .cardnumber{
+    margin-top:25px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.box1 .cardname{
+    margin-left:10px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.box1 .exp{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 170px;
+}
+
+.box2{
+    width: 310px;
+    height: 200px;
+    background-color: rgba(9, 78, 3, 0.801);
+    position: absolute;
+    top: 275px;
+    left: 375px;
+    border-radius: 10px;
+}
+.box2 p:first-child{
+    background-color: #000;
+    height: 40px;
+    width: 310px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+}
+.box2 .cvv p {
+    z-index: 1;
+    color: #fff;
+    padding-left: 85%;
+    padding-top: 10px;
+
+}
+ .box2 .line {
+    background-color: rgb(61, 59, 59);
+    height: 20px;
+    width: 260px;
+   
+    margin-top: 20px;
+    margin-left: 30px;
+}
+ 
+
+
+
+
+
+.right{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .card{
+    padding: 5px;
+}
+.right .card input{
+    padding: 8px 20px 8px 0;
+    border-radius: 5px;
+}
+.card-flex{
+    display: flex;
+   
+}
+.card-flex .date{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.card-flex .date select{
+    padding-right: 40px;
+}
+.submit input{
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    /* padding: 10px 140px 10px 10px;*/
+    margin-left: 10px; 
+    height: 40px;
+    width: 190px;
+}

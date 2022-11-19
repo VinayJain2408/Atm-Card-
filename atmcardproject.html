@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM CARD</title>
+    <link rel="stylesheet" href="atmcardproject.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="page">
+            <div class="left">
+                <div class="box1">
+                    
+                    <div class="contant">
+                        <p></p>
+                        <p></p>
+                    </div>
+                     <div class="cardnumber">0000 0000 0000 0000</div>
+                       <div class="cardname">Full name</div>
+                       <div class="exp">
+                        <div class="month">month</div>/
+                        <div class="year">year</div>
+                       </div>
+                </div>
+                <div class="box2">
+                    <div class="cvv">
+                        <p>000</p>
+                    </div>
+                   <div class="line">
+                    <span></span>
+                   </div>
+                   
+                </div>
+            </div>
+            <div class="right">
+                <form action="">
+                <div class="card">
+                    <Label for="CARDHOLDER NAME">CARDHOLDER NAME</Label><br>
+                    <input type="text" placeholder="CARDHOLDER NAME" class="name">
+                </div>
+                <div class="card">
+                    <Label for="CARD Number">CARD NUMBER</Label><br>
+                    <input type="text" placeholder="CARD Number" class="number">
+                </div>
+                <div class="card-flex">
+                    <div class="date">
+                        <label for="month">MONTH</label>
+                        <select name="month" id="month">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>                                              
+                    </div>
+                    <div class="date">
+                        <label for="year">YEAR</label>
+                        <select name="year" id="year">
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="201">2021</option>
+                            <option value="201">2022</option>
+                            <option value="201">2023</option>
+                            <option value="201">2024</option>
+                            <option value="201">2025</option>
+                            <option value="201">2026</option>
+                        </select>
+                       
+                    </div>
+                </div>
+
+                <div class="card">
+                    <label for="CVV">CVV</label><br>
+                    <input type="text" placeholder="CVV">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let submit = document.querySelector("submit")
+        let name = document.querySelector("name")
+        let number = document.querySelector("number")
+        
+    </script>
+</body>
+
+</html>
